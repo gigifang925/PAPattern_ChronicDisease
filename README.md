@@ -21,7 +21,7 @@ Using data from three large U.S. cohorts of health professionals (HPFS, NHS, NHS
   Group-based trajectory analysis for both the main outcome and secondary outcomes
 
 - **Folder: `lag/`**  
-  Lagged analysis for the main and secondary outcomes
+  Lagged analysis for both the main outcome and secondary outcomes
 
 - **Folder: `revision/`**  
   Additional analyses conducted during the revision process
