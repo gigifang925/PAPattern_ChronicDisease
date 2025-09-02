@@ -7,8 +7,7 @@ Using data from three large U.S. cohorts of health professionals (HPFS, NHS, NHS
 
 -  The following files contains code for dataset generation
     -  '*.doloop.sas' → transform into counting process data structure (one row per person-time)
-    -  '*.main.sas' → merge outcome, exposure, covariate files
-    -  '*.outcome.sas' and 'asp*.sas'
+    -  '*.main.sas' → merge outcome, exposure, covariate data
          
 -  Files with the following naming conventions correspond to specific analyses:
     - `"table2"` → volume and consistency analysis
@@ -26,4 +25,6 @@ Using data from three large U.S. cohorts of health professionals (HPFS, NHS, NHS
 
 - **Folder: `revision/`**  
   Additional analyses conducted during the revision process
+  
+All code was executed on the high-performance computing cluster maintained by the Channing Division of Network Medicine, which supports the management and analysis of the cohort studies (HPFS, NHS, and NHSII) used in this research.
   
