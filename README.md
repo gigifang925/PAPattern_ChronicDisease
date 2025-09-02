@@ -7,13 +7,13 @@ Using data from three large U.S. cohorts of health professionals (HPFS, NHS, NHS
 
 -  The following files contains code for dataset generation
     -  '*.doloop.sas' → transform into counting process data structure (one row per person-time)
-      -  '*.main.sas' → merge outcome, exposure, covariate files
-        -  '*.outcome.sas' and 'asp*.sas'
+    -  '*.main.sas' → merge outcome, exposure, covariate files
+    -  '*.outcome.sas' and 'asp*.sas'
          
 -  Files with the following naming conventions correspond to specific analyses:
-  - `"table2"` → volume and consistency analysis
-  - `"joint"` → joint analysis of activity volume and consistency
-  - `"spline"` → dose-response analysis
+    - `"table2"` → volume and consistency analysis
+    - `"joint"` → joint analysis of activity volume and consistency
+    - `"spline"` → dose-response analysis
 
 - **Folder: `second/`**  
   Primary analysis for secondary outcomes: type 2 diabetes (T2D), cardiovascular disease (CVD), cancer, and obesity-related cancer
