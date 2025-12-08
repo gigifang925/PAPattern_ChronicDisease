@@ -8,6 +8,7 @@ run;
 
 
 ods listing close;
+ods graphics on / maxobs=3179679;
 ods pdf file='pool_act_age_spline.pdf';
 proc sgplot data=age_pool_long;
 title1 "Physical activity trend over adulthood in the pooled cohorts";
@@ -16,4 +17,5 @@ XAXIS values=(23 25 to 110 by 5) label="Age, years";
 YAXIS values=(0 to 40 by 5) label="Physical activity, MET-hour/week";
 run;
 ods pdf close;
+ods graphics off;
 ods listing;

@@ -20,7 +20,8 @@ DXage_death=int((dtdth-birthday)/12);
 DXage_min=min(DXage_chronic, DXage_canc, DXage_cvd, DXage_tb, DXage_death);
 
 /*exclude participants who had major chronic disease diagnosis at baseline*/
-if DXage_min<=age89 then delete;
+if exrec eq 1 or birthday eq . or age89 eq . or act89m eq . or  can89 eq 1 or mi89 eq 1 or str89 eq 1 or db89 eq 1 then delete;
+if DXage_min ne . and DXage_min<=age89 then delete;
 run;
 
 

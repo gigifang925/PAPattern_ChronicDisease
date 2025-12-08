@@ -20,7 +20,8 @@ DXage_death=int((dtdth-dbmy09)/12);
 DXage_min=min(DXage_chronic, DXage_canc, DXage_cvd, DXage_tb, DXage_death);
 
 /* exclude participants who had major chronic disease diagnosis at baseline */
-if DXage_min<=age86 then delete;
+if exrec eq 1 or dbmy09 le 0 or age86 eq . or act86 eq . or  can86 eq 1 or mi86 eq 1 or str86 eq 1 or db86 eq 1 then delete;
+if DXage_min ne . and DXage_min<=age86 then delete;
 run;
 
 data age_cohort;
