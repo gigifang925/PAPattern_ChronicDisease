@@ -27,4 +27,6 @@ Using data from three large U.S. cohorts of health professionals (HPFS, NHS, NHS
   Additional analyses conducted during the revision process
   
 All code was executed on the high-performance computing cluster maintained by the Channing Division of Network Medicine, which supports the management and analysis of the cohort studies (HPFS, NHS, and NHSII) used in this research.
+
+This project is licensed under the terms of the MIT license.
   
